@@ -18,7 +18,7 @@ interface MovieProps{
 export function Movie({movie}:MovieProps){
     return (
         <div>
-            <h2>Name: {movie.title}</h2>
+            <h2 className={classes.elements}>Name: {movie.title}</h2>
             <ul className={classes.elements}>Release date: {movie.releaseDate}</ul>
             <ul className={classes.elements}>Description: {movie.description}</ul>
             <ul className={classes.elements}>Budget: {movie.budget}</ul>

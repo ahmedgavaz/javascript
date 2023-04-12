@@ -1,0 +1,35 @@
+.element{
+    color: #c1f6f0;;
+    margin-left: 30px;
+    font-size: 20px;
+    background-color: #043a4b;
+    margin-top: 30px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    margin-right: 30px;
+}
+.list{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:30px;
+    margin-right: 30px;
+}
+.button{
+    gap:30px;
+    margin-left: 30px;
+    padding-top: 30;
+}
+.search{
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

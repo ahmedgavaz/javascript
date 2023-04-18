@@ -1,0 +1,13 @@
+.header{
+  color: var(--primary-color-text);
+  font-weight: bold;
+  background-color:var(--secondary-color);
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.userSection{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}

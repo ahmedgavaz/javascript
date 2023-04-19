@@ -1,0 +1,29 @@
+.form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+}
+.title{
+    -webkit-text-fill-color: var(--secondary-color-text);
+}
+.search{
+    width: 500px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  var(--input-color);
+}
+
+.root {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 16px;
+  } 
+  
+  .errorMessage {
+    color: red;
+  }
+  
+  

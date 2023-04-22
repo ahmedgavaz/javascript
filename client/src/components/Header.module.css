@@ -1,0 +1,43 @@
+.header{
+  color: var(--primary-color-text);
+  font-weight: bold;
+  background-color:var(--secondary-color);
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.userSection{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color-text);
+  font-size: 50px;
+  margin: 0px;
+  padding: 30px;
+  box-shadow: none;
+  border:none;
+  font-style: italic;
+}
+.menu {
+  background-color: var(--secondary-color);
+  color: var(--primary-color-text);
+  border: 1px solid var(--primary-color-text); /* change border color here */
+  border-top: none; 
+  border-bottom: none; 
+  margin: 0px;
+  padding: 30px;
+  font-size: 26px;
+  font-style: italic;
+  border-radius: var(--default-border-radius);
+  cursor: pointer;
+  box-shadow: var(--default-shadow);
+}
+
+.log{
+  width: 100px;
+  height: 120px;
+}

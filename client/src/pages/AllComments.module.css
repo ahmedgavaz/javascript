@@ -1,0 +1,26 @@
+.element{
+    color: var(--primary-color-text);
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+    background-color: var(--secondary-color);
+    margin-top: 30px;
+    padding:20px;
+}
+.body{
+    margin-bottom: 130px;
+}
+.comment{
+    color: var(--primary-color-text);
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    background-color: var(--comment-color);
+    margin-top: 30px;
+    padding:20px;
+}
+.button {
+font-size: 32px;
+  }

@@ -1,0 +1,38 @@
+.elements {
+    margin-left: 50px;
+    margin: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-style: italic;
+  }
+  .menu {
+    border-top: none; 
+    border-bottom: none; 
+    margin: 20px;
+    padding: 25px;
+    font-size: 22px;
+    gap:40px;
+    font-style: italic;
+    border-radius: 13px;
+    box-shadow: var(--default-shadow);
+  }
+  .rows{
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-gap:100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+  }
+ .rowsTwo{
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-gap:100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+  }
+  .border{
+    text-align: left;
+}
+
+  
